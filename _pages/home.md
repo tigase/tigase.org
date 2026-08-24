@@ -360,8 +360,6 @@ contact_us_col5:
 
 ---
 
-{% include recent_posts %}
-
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="feature_row_first_col5" %}
