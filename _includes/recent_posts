@@ -1,0 +1,34 @@
+<div class="feature__wrapper">
+
+   {% for page in site.pages %}
+    {% if page.permalink == "/tygrys/" %}
+        {% assign title = page.title %}
+        {% assign ext_link = page.ext_link %}
+        {% assign ext_name = page.ext_name %}
+        {% assign description = page.description %}
+    {% endif %}
+   {% endfor %}
+
+   <div class="feature__item_boxed">
+      <div class="archive__item">
+         <div class="archive__item-body">
+            <h3 class="archive__item-subtitle">{{ title | slice: 0, 27 }} <a href="{{ ext_link }}">{{ ext_name }}</a></h3>
+            <div class="archive__item-excerpt">
+               <p>{{ description | slice: 0, 150 | markdownify }}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   {% for post in site.posts limit:2 %}
+   <div class="feature__item_boxed">
+      <div class="archive__item">
+         <div class="archive__item-body">
+            <h3 class="archive__item-subtitle"><a href="{{ site.baseurl }}{{ post.url}}" rel="permalink">{{ post.title | slice: 0, 27 }}...</a></h3>
+            <div class="archive__item-excerpt">
+               <p>{{ post.excerpt | slice: 0, 130 | markdownify }}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   {% endfor %}
+</div>

@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Quick Start"
+    url: "https://docs.tigase.net/en/latest/Tigase_Administration/Quick_Start_Guide/Intro.html"
+  - title: "Tygrys.One"
+    url: "https://tygrys.one"
+  - title: "Downloads"
+    url: "/downloads/"
+  - title: "Community"
+    url: "/community/"
+  - title: "Posts"
+    url: "/posts/"
+  - title: "About"
+    url: "/about/"
+  - title: "Enterprise"
+    url: "https://tigase.net"

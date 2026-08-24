@@ -1,0 +1,31 @@
+splash          image   800x480
+presence        icon
+online          icon
+messaging       icon
+notifications   icon
+iot             icon
+tigase-server   image   800x480
+secure          icon
+reliable        icon
+flexible        icon
+optimized       icon
+apps-for-all    image
+siskin-logo     icon
+stork-logo      icon
+beagle-logo     icon
+parrot-logo     icon
+tigase-libs     image   800x480
+jaxmpp-logo     icon
+martin-logo     icon
+halcyon-logo    icon
+why-choose      image
+and-more        icon
+siskin-screen   image
+stork-screen    image
+beagle-screen   image
+download        image
+bootstrap       image
+configure       image
+about           image   4096x512
+downloads       image   4096x512
+community       image   4096x512
